@@ -61,7 +61,7 @@ nav {
 
 .hero_div .header h1{
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 700;
     color: #F9FAF8;
     margin: 0px;
 }
@@ -81,3 +81,64 @@ button {
     font-family: 'Roboto';
     font-size: 18px;
 }
+
+.div2 h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 50px;
+}
+
+.info_container {
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info p {
+    padding: 0px 20px;
+}
+
+.div2 {
+    padding: 50px;
+}
+
+.div3 {
+    background-color: #E5E7EB;
+    padding: 125px 0px;
+}
+
+.div3 p#testimonial {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1F2937;
+    width: 70%;
+    margin: auto;
+    text-align: left;
+}
+
+.div3 p#author {
+    width: 70%;
+    font-size: 20px;
+    font-weight: 700;
+    color: #1F2937;
+    margin: auto;
+    text-align: right;
+}
+

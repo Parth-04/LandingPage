@@ -12,11 +12,26 @@ body {
     display: flex;
     list-style-type: none;
     font-size: 24px;
-    padding: 20px 200px;
+    padding: 20px 200px 0px 200px;
     margin: auto;
     width: 70%;
     gap: 20px;
     font-weight: 300;
+    margin-right: 0px;
+}
+
+.hero_div ul li{
+    align-items: center;
+}
+
+.hero_div ul li a img{
+    width: 80px;
+    height: 80px;
+    border-radius: 30%;
+}
+
+nav {
+    margin-bottom: 50px;
 }
 
 .hero_div a{
@@ -32,11 +47,17 @@ body {
     display: flex;
     width: 70%;
     margin: auto;
+    align-items: stretch;
 }
 
 .hero_div .header h1{
     font-size: 48px;
     font-weight: extra-bold;
     color: #F9FAF8;
+    margin: 0px;
 }
 
+.header_left p {
+    font-size: 18px;
+    color: #E5E7EB
+}

@@ -60,7 +60,7 @@ nav {
 }
 
 .hero_div .header h1{
-    font-size: 48px;
+    font-size: 45px;
     font-weight: 700;
     color: #F9FAF8;
     margin: 0px;
@@ -144,3 +144,39 @@ button {
     text-align: right;
 }
 
+.blue_container{
+    background-color: #3882F6;
+    color: white;
+    width: 70%;
+    margin: 75px auto;
+    padding: 50px 100px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blue_container .text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.blue_container p{
+    margin: 0px;
+    
+}
+
+.blue_container p#header1 {
+    font-weight: 500;
+    font-size: 25px;
+    
+}
+
+.blue_container p#content1 {
+    font-size: 15px;
+}
+
+#button2 {
+    border: 2px solid white;
+}

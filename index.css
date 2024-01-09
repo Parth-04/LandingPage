@@ -34,7 +34,7 @@ body {
 .hero_div ul li a img{
     width: 80px;
     height: 80px;
-    border-radius: 30%;
+    border-radius: 20%;
 }
 
 nav {
@@ -51,12 +51,17 @@ nav {
     margin-left: auto;
 }
 
+.hero_div .header_left {
+    flex-basis: 500px;
+}
+
 .hero_div .header {
     display: flex;
     width: 70%;
     margin: auto;
     align-items: stretch;
     padding-bottom: 60px;
+    flex-wrap: wrap;
 }
 
 .hero_div .header h1{
@@ -80,6 +85,7 @@ button {
     border: 0px;
     font-family: 'Roboto';
     font-size: 18px;
+    margin-bottom: 15px;
 }
 
 .div2 h2 {
@@ -95,6 +101,9 @@ button {
     display: flex;
     width: 70%;
     margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
 }
 
 .box {
@@ -108,6 +117,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-basis: 200px;
 }
 
 .info p {
@@ -160,6 +170,7 @@ button {
     display: flex;
     flex-direction: column;
     gap: 5px;
+    padding-right: 10px;
 }
 
 .blue_container p{

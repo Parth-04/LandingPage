@@ -8,16 +8,22 @@ body {
     background-color: #1F2937;
 }
 
+.hero_div nav {
+    display: flex;
+    justify-content: center;
+}
+
 .hero_div ul {
     display: flex;
     list-style-type: none;
     font-size: 24px;
-    padding: 20px 200px 0px 200px;
+    padding: 20px 0px;
     margin: auto;
     width: 70%;
     gap: 20px;
     font-weight: 300;
     margin-right: 0px;
+    margin-left: 0px;
 }
 
 .hero_div ul li{
@@ -50,6 +56,7 @@ nav {
     width: 70%;
     margin: auto;
     align-items: stretch;
+    padding-bottom: 60px;
 }
 
 .hero_div .header h1{
@@ -61,5 +68,16 @@ nav {
 
 .header_left p {
     font-size: 18px;
-    color: #E5E7EB
+    color: #acafb3;
+    margin-right: 60px;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    border: 0px;
+    font-family: 'Roboto';
+    font-size: 18px;
 }

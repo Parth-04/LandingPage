@@ -52,7 +52,6 @@ nav {
 }
 
 .hero_div .header_left {
-    flex-basis: 500px;
 }
 
 .hero_div .header {
@@ -61,7 +60,6 @@ nav {
     margin: auto;
     align-items: stretch;
     padding-bottom: 60px;
-    flex-wrap: wrap;
 }
 
 .hero_div .header h1{

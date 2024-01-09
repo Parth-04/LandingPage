@@ -22,6 +22,7 @@ body {
 
 .hero_div ul li{
     align-items: center;
+    display: flex;
 }
 
 .hero_div ul li a img{
@@ -37,6 +38,7 @@ nav {
 .hero_div a{
     color: #E5E7EB;
     text-decoration: none;
+    align-self: center;
 }
 
 .hero_div .right {
